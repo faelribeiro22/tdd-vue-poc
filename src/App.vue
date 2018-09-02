@@ -1,28 +1,22 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+  <vi-wrapper justify-content id="app">
+    <h1>todos</h1>
+    <vi-card>
+      <form-to-do/>
+    </vi-card>
+  </vi-wrapper>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue';
+import FormToDo from './components/FormToDo.vue';
 
 export default {
   name: 'app',
   components: {
-    HelloWorld,
+    FormToDo,
   },
 };
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
 </style>
