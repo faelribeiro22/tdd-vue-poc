@@ -3,6 +3,7 @@
   <vi-input
     data-test="titleText"
     placeholder="O que precisa ser feito?"
+    type="text"
     v-model="titleText"/>
 
 </div>
